@@ -1,0 +1,33 @@
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding: 20px;
+}
+
+.card {
+  width: 300px;
+  height: auto;
+  margin: 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
