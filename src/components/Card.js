@@ -1,10 +1,10 @@
 import React from "react";
-import "./Card.css";
+import "../styles/Card.css";
 
 import gt3Image1 from "../assets/Engine.jpg";
 import gt3Image2 from "../assets/Interior.jpg";
 import gt3Image3 from "../assets/Speed.jpg";
-import gt3Image4 from "../assets/Performance.jpg"; // Add another image
+import gt3Image4 from "../assets/Speed2.jpg"; // Add another image
 
 const cardData = [
   {
